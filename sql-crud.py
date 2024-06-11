@@ -87,13 +87,22 @@ tim_berners_lee = Programmer(
     famous_for = "World Wide Web"
 )
 
+sophie_tigerholm = Programmer(
+    first_name = "Sophie",
+    last_name = "Tigerholm",
+    gender = "F",
+    nationality = "Swedish",
+    famous_for = "Problem Solving"
+)
+
 # add each instance of our programmers to our session
 # session.add(ada_lovelace)
-session.add(alan_turing)
-session.add(grace_hopper)
-session.add(margaret_hamilton)
-session.add(bill_gates)
-session.add(tim_berners_lee)
+# session.add(alan_turing)
+# session.add(grace_hopper)
+# session.add(margaret_hamilton)
+# session.add(bill_gates)
+# session.add(tim_berners_lee)
+session.add(sophie_tigerholm)
 
 # commit our session to the database
 session.commit()
